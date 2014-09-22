@@ -4,7 +4,6 @@ Created on Mon Sep 22 13:04:35 2014
 
 @author: Flora Vincent
 """
-
 phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  taxation of trade routes to outlying star systems is in\
  dispute. Hoping to resolve the matter with a blockade of deadly\
@@ -13,5 +12,4 @@ phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  endlessly debates this alarming chain of events, the Supreme\
  Chancellor has secretly dispatched two Jedi Knights, the guardians of\
  peace and justice in the galaxy, to settle the conflict"""
-u = len(phantom_menace)
-print(u)
+print(len(phantom_menace))
