@@ -4,7 +4,6 @@ Created on Mon Sep 22 15:50:01 2014
 
 @author: Flora Vincent
 """
-
 import operator
 
 print(operator.__truediv__(245850922, 78256779))

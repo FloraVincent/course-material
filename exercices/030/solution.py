@@ -13,4 +13,3 @@ while i <= 100:
     else:
         i = i + 1
 print(a)
-    
