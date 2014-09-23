@@ -39,7 +39,8 @@ def check_my_city(city_name):
     if city_name in city:
         stations = city.count(city_name)
         zipcodes = [item['zip'] for item in velib if item['city'] == city_name]
-        ",".join([str(stations), "stations for", str(city_name),
-                  str(zipcodes)])
+        res = ",".join([str(stations), "stations for", str(city_name),
+                        str(zipcodes)])
+        print(res)
     else:
         print("Sorry! No station for your city has been found!")
