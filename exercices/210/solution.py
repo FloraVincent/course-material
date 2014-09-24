@@ -8,7 +8,7 @@ import is_prime
 
 a, i = 0, 0
 while i < 100:
-    if is_prime.is_prime(i) is True:
+    if is_prime(i) is True:
         a, i = a + i, i + 1
     else:
         a, i = a, i + 1
