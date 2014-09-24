@@ -14,9 +14,8 @@ def is_prime(num):
                 print("FALSE")
             else:
                 print("TRUE")
-    else:
-        print("FALSE")
-    return
+    # else:
+        # print("FALSE")
 
 
 # if num == int:
