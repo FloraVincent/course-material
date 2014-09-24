@@ -4,8 +4,6 @@ Created on Tue Sep 23 10:39:05 2014
 
 @author: Flora Vincent
 """
-import collections
-
 velib = [
     {'address':
         'RUE DES CHAMPEAUX (PRES DE LA ' 'GARE ROUTIERE) - 93170 BAGNOLET',
@@ -44,3 +42,4 @@ def check_my_city(city_name):
         print(res)
     else:
         print("Sorry! No station for your city has been found!")
+    return
