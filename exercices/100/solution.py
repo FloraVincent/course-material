@@ -16,5 +16,6 @@ length = len(list(station.items()))
 
 
 for i in range(0, length):
-    out = str(list(station.items())[i][0]) + str(" ") + str(list(station.items())[i][1])
+    out = str(list(station.items())[i][0]) + str(" ") + \
+        str(list(station.items())[i][1])
     print(out)
