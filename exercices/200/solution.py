@@ -11,13 +11,13 @@ def is_prime(num):
     if num > 1:
         for i in range(2, num):
             if (num % i) == 0:
-                print("FALSE")
+                return False
                 break  # break stops the loop after the first FALSE
             else:
-                print("TRUE")
+                return True
                 break  # break stop the loop after the first TRUE
     else:
-        print("FALSE")
+        return False
 
     # if num == int:
     #  result = is_prime(num)
