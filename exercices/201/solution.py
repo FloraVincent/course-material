@@ -12,6 +12,6 @@ p = re.compile('[a-z]', re.IGNORECASE)  # First I create my reg exp
 def is_alpha(input):
     alpha = print(p.search(input))
     if alpha is None:
-        return False
+        print("False")
     else:
-        return True
+        print("True")
