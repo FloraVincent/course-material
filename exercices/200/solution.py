@@ -8,7 +8,7 @@ Created on Wed Sep 24 09:37:26 2014
 
 
 def is_prime(num):
-    if num > 1:
+    if num > 2:
         for i in range(2, num):
             if (num % i) == 0:
                 print("False")
@@ -16,6 +16,8 @@ def is_prime(num):
             else:
                 print("True")
                 break  # break stop the loop after the first TRUE
+    elif num == 2:
+        print("True")
     else:
         print("False")
 
