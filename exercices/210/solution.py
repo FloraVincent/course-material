@@ -7,9 +7,10 @@ Created on Wed Sep 24 12:07:00 2014
 import is_prime
 
 a, i = 0, 0
-while i < 100:
-    if is_prime(i) is True:
+while i < 10:
+    prime = is_prime.is_prime(i)
+    if prime is True:
         a, i = a + i, i + 1
     else:
-        a, i = a, i + 1
+        i = i + 1
 print(a)
