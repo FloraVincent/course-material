@@ -12,5 +12,5 @@ while i < 10:
     if prime is True:
         a, i = a + i, i + 1
     else:
-        i = i + 1
+        a, i = a, i + 1
 print(a)
