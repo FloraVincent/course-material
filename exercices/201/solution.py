@@ -10,8 +10,8 @@ p = re.compile('[a-z]', re.IGNORECASE)  # First I create my reg exp
 
 
 def is_alpha(input):
-    alpha = p.search(input)
+    alpha = p.search(input)  # do NOT at the print! alpha STORES the value!
     if alpha is not None:
-        print("True")
+        return True
     else:
-        print("False")
+        return False
