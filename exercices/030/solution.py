@@ -6,7 +6,7 @@ Created on Mon Sep 22 16:33:21 2014
 """
 import operator
 
-a, i = 0, 0
+a, i = 0, 15
 while i <= 100:
     if operator.mod(i, 2) == 0:
         print(i)

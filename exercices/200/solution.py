@@ -16,12 +16,11 @@ def is_prime(num):
             else:
                 print("TRUE")
                 break  # break stop the loop after the first TRUE
-    # else:
-        # print("FALSE")
+    else:
+        print("FALSE")
 
-
-# if num == int:
+    # if num == int:
     #  result = is_prime(num)
     #  print(result)
-# else:
+    # else:
     #  print("Please put an integer!")
