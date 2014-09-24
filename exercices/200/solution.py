@@ -12,10 +12,10 @@ def is_prime(num):
         for i in range(2, num):
             if (num % i) == 0:
                 print("FALSE")
-                break
+                break  # break stops the loop after the first FALSE
             else:
                 print("TRUE")
-                break
+                break  # break stop the loop after the first TRUE
     # else:
         # print("FALSE")
 
