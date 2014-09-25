@@ -25,5 +25,5 @@ def draw_n_squares(m):
                 else:
                     Matrix[i][j] = " "
     for mat in Matrix:
-        print("".join(map(str, mat)))
-    return
+        result = print("".join(map(str, mat)))
+    return result
