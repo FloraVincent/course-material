@@ -1,6 +1,7 @@
 #clean_my_dataset: Json reading and writing
 
 Introduces: json, split, join, list.
+
 Author(s): @c24b.
 
 ## Instructions
@@ -47,7 +48,4 @@ latitude": 48.8645278209514},
  - [json](https://docs.python.org/3/tutorial/controlflow.html#if-statements)
  - [split](https://docs.python.org/3/library/stdtypes.html#str.split)
  - [join](https://docs.python.org/3/library/stdtypes.html#str.join)
- - [join](☛)
- - [join](comparisons(numbers))
- - [join](https://docs.python.org/3.1/library/stdtypes.html#comparisons)
  - [list](https://docs.python.org/3/tutorial/introduction.html#lists)
